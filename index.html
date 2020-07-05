@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="img/favicon.png">
+  <!-- FONT AWSOME LINK=======================================================-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+  <!-- FONT FAMILY LINK=======================================================-->
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Galada&family=Muli:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+  <!-- VENDOR-LINK=======================================================-->
+  <link rel="stylesheet" href="css/jquery.gScrollingCarousel.css">
+  <!-- ONLINE VENDOR-LINK=======================================================-->
+
+  <!-- GIT BUSH LINK=======================================================-->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <!-- MAIN CSS LINK=======================================================-->
+  <link rel="stylesheet" href="css/style.css">
+  <title>S M Faisal</title>
+</head>
+<body>
+<!-- NAVBAR================================================================ -->
+<nav class="navbar navbar-expand-md navbar-dark fixed-top">
+  <div class="container">
+    <a class="img-fluid" href="">
+      <img src="img/logo.png" alt="" class="img-fluid">
+    </a>
+    <button class="navbar-toggler" data-target="#myNav" data-toggle="collapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="myNav" class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href="#header-area" class="nav-link">home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#about-area" class="nav-link">about me</a>
+        </li>
+        <li class="nav-item">
+          <a href="#education-area" class="nav-link">education</a>
+        </li>
+        <li class="nav-item">
+          <a href="#skill-area" class="nav-link">skill</a>
+        </li>
+        <li class="nav-item">
+          <a href="javascript:viod(0)" id="error-alert" class="nav-link">portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact-area" class="nav-link">contact me</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="alert alert-danger alart-dismissable fixed-top">
+  <button type="button"class="close" data-dismiss="alert">
+    <span>&times;</span>
+  </button>
+  <h3>Content Error</h3>
+  <p>This page contant creator is still learning web developing. So, you might not see everything.</p>
+
+</div>
+
+<!-- HEADER AREA========================================================= -->
+<section id="header-area" class="py-5">
+  <div class="container">
+    <div class="row mt-5 py-5">
+      <div class="col-md-4 order-md-2">
+        <img src="img/profile_logo_.jpg" alt="Profile Image" class="img-fluid">
+      </div>
+      <div class="col-md-8 order-md-1">
+        <h1 class="display-4">FREELANCER</h1>
+        <h1 class="display-4 text-danger text-right">SM FAISAL</h1>
+        <h2 class="display-5">I am a:-<br><span class="typed"></span></h2>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT AREA========================================================= -->
+<section id="about-area" class="text-center py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="py-4 bg-orange display-4">About Me...</h2>
+        <p>I am S M Faisal Mahmud. Basically I am a student. I am doing Diploma in Dhaka Polytecnic Institute, in Dhaka. I have a small family with my father(Md. Nazrul Islam), mother(Fatema Akter) and a younger brother(S M Fardin Ahmed). I want to be very friendly to everyone. I have two aim in my life. First is to be an Electrical Engineer and second is to be the Proffessional Full Stak Web Developer. I am still now working for reach on that part. I also know Basic Logo Design and Admin & Support. To my goal, I have not yet to get any results. But I am very hopeful that sooner or later, I will get some results.</p>
+        <br><br>
+        <p>I am a student. So, I have no more parsonal details. I present myself to you(visitors) as best I can</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SHOWCASE AREA========================================================= -->
+
+<!-- EDUCATION AREA========================================================= -->
+<section id="education-area" class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="text-center edu-heading display-4">Education...</h2>
+        <p></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="text-center mb-3">
+          <i class="fas fa-graduation-cap"></i>
+          <h2>Education</h2>
+        </div>
+        <div class="text-center">
+          <div id="accordion" role="tablist">
+            <div class="card">
+              <div class="card-header" role="tab">
+                <i class="fas fa-school"></i>
+                <h2>
+                  <a href="#education-accordion-1" data-toggle="collapse">Secondary School</a>
+                </h2>
+              </div>
+              <div id="education-accordion-1" class="collapse">
+                <div class="card-body">
+                  <p>In, Textile Vocational Institute,</p>
+                  <p>In a textile subject "Dyeing, Printing & Finishing",</p>
+                  <p>Two year learning in textile.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div id="accordion" role="tablist">
+            <div class="card">
+              <div class="card-header" role="tab">
+                <i class="fas fa-book-reader"></i>
+                <h2>
+                  <a href="#education-accordion-2" data-toggle="collapse">Diploma in Electrical</a>
+                </h2>
+              </div>
+              <div id="education-accordion-2" class="collapse">
+                <div class="card-body">
+                  <p>In, Dhaka Polytechnic Institute,</p>
+                  <p>I have just finished 1stsemester,</p>
+                  <p>and still going to learning</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="text-center mb-3">
+          <i class="fas fa-award"></i>
+          <h2>Certificates</h2>
+        </div>
+        <div class="">
+          <i></i>
+          <div id="accordion" role="tablist">
+            <div class="card">
+              <div class="card-header" role="tab">
+                <h3><a href="#education-accordion-3" data-toggle="collapse">Secondary School Certificate</a></h3 >
+              </div>
+              <div id="education-accordion-3" class="collapse">
+                <div class="card-body">
+                  <p>Passed from Textile Vocational Institute,,</p>
+                  <p>Got GPA: 5</p>
+                  <p>In April, 2019</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <i></i>
+          <div id="accordion" role="tablist">
+            <div class="card">
+              <div class="card-header" role="tab">
+                <h3><a href="#education-accordion-4" data-toggle="collapse">Computer Office Application</a></h3>
+              </div>
+              <div id="education-accordion-4" class="collapse">
+                <div class="card-body">
+                  <p>Passed from Bangladesh Korea Technical Traning Institute,</p>
+                  <p>Course Duration time:- 6 month,</p>
+                  <p>In July, 2019</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <i></i>
+          <div id="accordion" role="tablist">
+            <div class="card">
+              <div class="card-header" role="tab">
+                <h3><a href="#education-accordion-5" data-toggle="collapse">HTML , CSS  & Bootstrap</a></h3>
+              </div>
+              <div id="education-accordion-5" class="collapse">
+                <div class="card-body">
+                  <p>From Moshiur Sir</p>
+                  <p>In Youtube</p>
+                  <p>Learning Duration time:- 4 month</p>
+                  <p>In June, 2020</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS AREA========================================================= -->
+<section id="skill-area" class="py-5 text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="text-center skill-heading my-4 display-4">Skills...</h2>
+        <p></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 my-4">
+        <h3 class="text-color">HTML5</h3>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width:75%;"></div>
+        </div>
+      </div>
+      <div class="col-12 my-4">
+        <h3 class="text-color">CSS3</h3>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width:80%;"></div>
+        </div>
+      </div>
+      <div class="col-12 my-4">
+        <h3 class="text-color">Javascript</h3>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width:40%;"></div>
+        </div>
+      </div>
+      <div class="col-12 my-4">
+        <h3 class="text-color">Bootstrap</h3>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width:65%;"></div>
+        </div>
+      </div>
+      <div class="col-12 my-4">
+        <h3 class="text-color">Responsive Design</h3>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width:90%;"></div>
+        </div>
+      </div>
+      <div class="col-12 my-4">
+        <h3 class="text-color">LOGO Design</h3>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width:75%;"></div>
+        </div>
+      </div>
+      <div class="col-12 my-4">
+        <h3 class="text-color">Admin & Support</h3>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width:80%;"></div>
+        </div>
+      </div>
+      <div class="col-12 my-4">
+        <h3 class="text-color">Lead Genaration</h3>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width:80%;"></div>
+        </div>
+      </div>
+      <div class="col-12 my-4">
+        <h3 class="text-color">Web Search</h3>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width:80%;"></div>
+        </div>
+      </div>
+      <div class="col-12 my-4">
+        <h3 class="text-color">Microsoft Word</h3>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width:90%;"></div>
+        </div>
+      </div>
+      <div class="col-12 my-4">
+        <h3 class="text-color">Microsoft Excel</h3>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width:60%;"></div>
+        </div>
+      </div>
+      <div class="col-12 my-4">
+        <h3 class="text-color">Powerpoint</h3>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width:90%;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT AREA=======================================================-->
+<section id="contact-area" class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="text-center text-danger display-4">Contact Me?...</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 mt-4">
+        <img src="img/logo.png" alt="" class="img-fluid">
+      </div>
+      <div class="col-md-6">
+        <form class="form-group" action="https://formspree.io/smfaisal716425@gmail.com" method="post">
+          <input class="form-control border-hide p-3 my-4" type="text" placeholder="Name">
+          <input class="form-control border-hide my-4" type="tel" placeholder="Phone Number">
+          <input class="form-control border-hide  my-4" type="email" placeholder="Email Address">
+          <select class="form-control border-hide form-border" name="select">
+            <option value="select" selected disabled>SELECT SERVICE</option>
+            <option value="normal">NORMAL SERVICE</option>
+            <option value="primium">PRIMIUM SERVICE</option>
+            <option value="vip">Just Ask Some Quastion</option>
+          </select>
+          <textarea class="form-control border-hide my-4 p-4" name="comment" placeholder="Write Comment"></textarea>
+          <input class="btn btn-danger text-white mt-4 py-3 px-4" type="submit" value="SUBMIT NOW"></form>
+        </div>
+    </div>
+  </div>
+</section>
+
+<!-- COPYRIGHT AREA=======================================================-->
+<section id="footer-area" class="py-5 bg-dark text-center text-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 text-right">
+        <h3>SOCIAL LINK</h3>
+      </div>
+      <div class="col-md-6 text-left">
+          <a style="text-decoration:none;color:#ffffff;" href="https://www.facebook.com/s.m.faisal.mahmud.716425" target="_blank"><i class="fab fa-facebook-f mx-3"></i></a>
+          <a style="text-decoration:none;color:#ffffff;" href="https://www.linkedin.com/in/s-m-faisal-mahmud-ba6833189/" target="_blank"><i class="fab fa-twitter mx-3"></i></a>
+          <a style="text-decoration:none;color:#ffffff;" href="https://twitter.com/faisalm01195828" target="_blank"><i class="fab fa-linkedin mx-3"></i></a>
+      </div>
+      <div class="col-12">
+        <h3>FREELANCER SM FAISAL</h3>
+        <p>Copyright<span>&copy;</span>2020</p>
+        <p>Designed By: <a class="text-warning" href="">FREELANCER SM FAISAL</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ONLINE VENDOR-LINK=======================================================-->
+<!--  VENDOR-LINK=======================================================-->
+<!-- GID BUSH LINK=======================================================-->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  <!-- VENDOR-LINK=======================================================-->
+  <script src="js/typed.min.js"></script>
+  <script src="js/jquery.gScrollingCarousel.js"></script>
+  <!-- TYPED JS=======================================================-->
+  <script>
+  var typed = new Typed(".typed", {
+    strings: [
+      "Student",
+      "Front-End Web Developer",
+      "Logo Designer",
+      "Admin &amp; Supporter",
+      "Lead Generation Searcher",
+      "Office Application Worker",
+      "Typer"
+    ],
+    typeSpeed: 60,
+    backSpeed: 60,
+    loop: true,
+  });
+  </script>
+
+</body>
+</html>
